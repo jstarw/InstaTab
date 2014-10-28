@@ -41,9 +41,9 @@ var kittenGenerator = {
     req.onload = this.showPhotos_.bind(this);
     req.send(null);
   },
-
+Handle
   /**
-   * Handle the 'onload' event of our kitten XHR request, generated in
+   *  the 'onload' event of our kitten XHR request, generated in
    * 'requestKittens', by generating 'img' elements, and stuffing them into
    * the document for display.
    *
