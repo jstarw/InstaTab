@@ -1,4 +1,46 @@
-h1 {
-	font-family: Calibri;
-	font-size: 5em;
+
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Lobster';
+	/*text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; */
+	color: white;
 }
+
+body {
+	margin: 0;
+	background-image: url(lib/img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#content {
+	float: left;
+	font-size: 2em;
+	bottom: 0.8125em;
+	left: 0.8125em;
+	position: absolute;
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	position: absolute;
+	top:-45%;
+}
+
+#link {
+	font-size: 1.5em;
+	bottom: 0.2em;
+	left: 0.2em;
+	float: left;
+	position: absolute;
+}
+
