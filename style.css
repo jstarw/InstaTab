@@ -15,7 +15,6 @@ html, body {
 
 body {
 	margin: 0;
-	background-image: url(lib/img/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -44,3 +43,13 @@ img {
 	position: absolute;
 }
 
+#loader {
+	margin: auto;
+	background-image: url(lib/img/spinner.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	height: 100px;
+	width:100px;
+	top: 40%;
+	left: 50%;

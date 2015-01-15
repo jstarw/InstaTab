@@ -6,7 +6,7 @@
   "version": "1.0",
   "background": {
     "scripts": ["lib/js/picture.js"],
-    "persistent": true
+    "page": "index.html"
   },
   "permissions": [
     "https://secure.flickr.com/"
