@@ -5,8 +5,7 @@
   "description": "This extension demonstrates a browser action with kittens.",
   "version": "1.0",
   "background": {
-    "scripts": ["lib/js/picture.js"],
-    "page": "index.html"
+    "scripts": ["lib/js/picture.js"]
   },
   "permissions": [
     "https://secure.flickr.com/"
@@ -14,9 +13,13 @@
   "chrome_url_overrides" : {
     "newtab": "index.html"
   },
-  "browser_action": {
-    "default_icon": "lib/img/icon.png",
-    "default_popup": "popup.html"
-  }
+  "content_scripts": [
+  {
+    
+    }]
+  // "browser_action": {
+  //   "default_icon": "lib/img/icon.png",
+  //   "default_popup": "popup.html"
+  // }
 
 }
